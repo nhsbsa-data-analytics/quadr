@@ -20,9 +20,9 @@ quadrant <- function(x, y) {
   if (on_axes(x, y)) {
     return("No quadrant")
   }
-  
+
   browser()
-  
+
   # if (i_leave_commented_code) print("Bad!")
 
   signs <- sign(c(x, y)) # maps x, y to -1, 0 or 1
