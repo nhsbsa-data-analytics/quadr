@@ -1,5 +1,5 @@
 #' Is point `(x,y)` on an axis of the plane?
-#' 
+#'
 #' The point `(x,y)` lies on an axis if at least one of the coordinates is zero.
 #'
 #' @param x Numeric
@@ -14,5 +14,5 @@
 #' on_axes(0, 1) # TRUE, this is on y-axis
 #' on_axes(1, 1) # FALSE
 on_axes <- function(x, y) {
-  any(c(x,y) == 0) # If either x or y is 0, TRUE 
+  any(c(x, y) == 0) # If either x or y is 0, TRUE
 }
